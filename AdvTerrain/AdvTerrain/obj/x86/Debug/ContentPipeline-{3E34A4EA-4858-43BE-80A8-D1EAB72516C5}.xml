@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>AdvTerrainEffect.fx</Source>
+      <Name>AdvTerrainEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\bin\x86\Debug\Content\AdvTerrainEffect.xnb</Output>
+      <Time>2012-08-22T03:33:00-04:00</Time>
+    </Item>
+    <Item>
+      <Source>PostprocessEffect.fx</Source>
+      <Name>PostprocessEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\bin\x86\Debug\Content\PostprocessEffect.xnb</Output>
+      <Time>2012-08-22T03:38:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmap.bmp</Source>
+      <Name>heightmap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\bin\x86\Debug\Content\heightmap.xnb</Output>
+      <Time>2012-08-20T10:48:30-04:00</Time>
+    </Item>
+    <Item>
+      <Source>grass.dds</Source>
+      <Name>grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\bin\x86\Debug\Content\grass.xnb</Output>
+      <Time>2012-08-21T06:41:14-04:00</Time>
+    </Item>
+    <Item>
+      <Source>rock.dds</Source>
+      <Name>rock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\bin\x86\Debug\Content\rock.xnb</Output>
+      <Time>2012-08-21T20:31:50-04:00</Time>
+    </Item>
+    <Item>
+      <Source>sand.dds</Source>
+      <Name>sand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\bin\x86\Debug\Content\sand.xnb</Output>
+      <Time>2012-08-21T20:31:50-04:00</Time>
+    </Item>
+    <Item>
+      <Source>snow.dds</Source>
+      <Name>snow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\bin\x86\Debug\Content\snow.xnb</Output>
+      <Time>2012-08-21T20:31:50-04:00</Time>
+    </Item>
+    <Item>
+      <Source>tree.dds</Source>
+      <Name>tree</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\bin\x86\Debug\Content\tree.xnb</Output>
+      <Time>2012-08-21T20:31:50-04:00</Time>
+    </Item>
+    <Item>
+      <Source>waterbump.dds</Source>
+      <Name>waterbump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\bin\x86\Debug\Content\waterbump.xnb</Output>
+      <Time>2012-08-21T20:31:50-04:00</Time>
+    </Item>
+    <Item>
+      <Source>cloudMap.jpg</Source>
+      <Name>cloudMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\bin\x86\Debug\Content\cloudMap.xnb</Output>
+      <Time>2012-08-22T02:38:54-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sample.spritefont</Source>
+      <Name>Sample</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\bin\x86\Debug\Content\Sample.xnb</Output>
+      <Time>2012-08-21T00:25:16-04:00</Time>
+    </Item>
+    <Item>
+      <Source>dome.x</Source>
+      <Name>dome</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\bin\x86\Debug\Content\dome.xnb</Output>
+      <Time>2012-08-22T02:38:54-04:00</Time>
+      <Dependency>
+        <Key>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\obj\x86\Debug\dome_0.xml</Key>
+        <Value>2012-09-06T23:05:56-04:00</Value>
+      </Dependency>
+      <Request>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\bin\x86\Debug\Content\cloudMap_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>dome.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\obj\x86\Debug\dome_0.xml</Output>
+      <Time>2012-08-22T02:38:54-04:00</Time>
+    </Item>
+    <Item>
+      <Source>cloudMap.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\bin\x86\Debug\Content\cloudMap_0.xnb</Output>
+      <Time>2012-08-22T02:38:54-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{3E34A4EA-4858-43BE-80A8-D1EAB72516C5}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>F:\important\AdvTerrain\AdvTerrain\AdvTerrainContent\</RootDirectory>
+      <LoggerRootDirectory>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\</LoggerRootDirectory>
+      <IntermediateDirectory>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>F:\important\AdvTerrain\AdvTerrain\AdvTerrain\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-04-24T01:46:22.6215142-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

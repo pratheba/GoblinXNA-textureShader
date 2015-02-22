@@ -1,0 +1,2 @@
+C:\shader\AdvTerrain\AdvTerrain\AdvTerrainContent\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\important\AdvTerrain\AdvTerrain\AdvTerrainContent\obj\x86\Debug\AdvTerrainContent.contentprojResolveAssemblyReference.cache
